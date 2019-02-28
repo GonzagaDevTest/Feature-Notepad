@@ -22,3 +22,39 @@ Reinicie o editor de texto NotePad++
 
 Selecione a Linguagem Feature-Notepad no Menu Linguagem
 
+### 2. Palavras reservadas
+````
+@
+Background:	
+Feature:	
+Scenario:	
+Scenario Outline:	
+Given	
+And	
+When	
+Then	
+Cenário:	
+Dado	
+E	
+Quando	
+Então	
+Examples:	
+"<variavel>"	
+'<variavel>'	
+````
+### 3. Exemplo
+````
+Feature: Caso de testes de exemplo	
+Given possui usuário "<usuario>" cadastrado	
+And o usuário "<usuario>" possui acesso ao sistema
+#And este é um exemplo de comentário	
+When o usuário "<usuario>" tentar acessar o sistema
+Then o sistema deve permitir que o usuário "<usuário>"	
+
+Examples:	
+
+|usuario	  |
+|Usuário Teste|
+|Usuário Teste|
+
+````
